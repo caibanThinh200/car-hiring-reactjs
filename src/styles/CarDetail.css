@@ -1,0 +1,219 @@
+.container-card {
+    max-width: 70%;
+    margin: 5% auto;
+  }
+.details{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.card {
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.3);
+    background: #fff;
+  }
+  .card .card__title {
+    display: flex;
+    align-items: center;
+    padding: 30px 40px;
+  }
+  .card .card__title h3 {
+    flex: 0 1 200px;
+    text-align: center;
+    margin: 0;
+    color: #252525;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  .card .card__title .icon {
+    flex: 1 0 10px;
+    background: #343435;
+    color: #fff;
+    padding: 10px 10px;
+  }
+  .card .card__title .icon > a {
+    color: #fff;
+    margin: 0 10px;
+  }
+  .card .card__title span{
+    color: #fff;
+  }
+  .card .card__title .icon:hover {
+    background: #252525;
+  }
+  .card .card__body {
+    padding: 0 40px;
+    display: flex;
+  }
+  .card .card__body > .half {
+    box-sizing: border-box;
+    padding: 0 15px;
+  }
+  .card .card__body .featured_text{
+    display: flex;
+  }
+  .featured_text-1{
+    width: 85%;
+  }
+  .featured_text-2{
+    width: 15%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+  }
+  .card .card__body .featured_text p {
+    margin: 0;
+    padding: 0;
+  }
+  .card .card__body .featured_text p.sub {
+    font-family: "Montserrat", sans-serif;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #686e77;
+    font-weight: 300;
+  }
+  .card .card__body .featured_text #cate-detail{
+    font-size: 18px;
+  }
+  .card .card__body .featured_text #price-detail {
+    font-family: "Fjalla One", sans-serif;
+    font-size: 22px;
+  }
+  .card .card__body .image {
+    width: 100%;
+    padding-top: 24px;
+  }
+  .fa.fa-pen{
+    margin-right: 10px;
+  }
+  .card .card__body .image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+ 
+  .card .card__body .description {
+    margin-bottom: 25px;
+    padding: 20px;
+  }
+  .description {
+    background-image: url('https://i0.wp.com/s1.uphinh.org/2021/05/25/106845268-1614203269431-AppleCar_YT_Thumbnail_Option.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .card .card__body .description p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    line-height: 27px;
+    font-size: 16px;
+    color: white;
+  }
+  .card .card__body span.stock {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #a1cc16;
+  }
+  .card .card__body .reviews .stars {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+  }
+  .card .card__body .reviews .stars > li {
+    display: inline-block;
+  }
+  .card .card__body .reviews .stars > li .fa {
+    color: #f7c01b;
+  }
+  .card .card__body .reviews > span {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    margin-left: 5px;
+    color: #555;
+  }
+  .card .card__footer {
+    padding: 20px 40px;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row no-wrap;
+    align-items: center;
+    position: relative;
+  }
+  .card .card__footer::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top:0%;
+    padding: 2px 40px;
+    width: calc(100% - 40px);
+    height: 3px;
+    background: #000000;
+    background: linear-gradient(to right, #000 0%, rgb(255, 255, 255) 100%);
+  }
+  .card .card__footer .recommend {
+    flex: 1 0 10px;
+  }
+  .card .card__footer .recommend p {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    color: #555;
+  }
+  .card .card__footer .recommend h3 {
+    margin: 0;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  .card .card__footer .action button {
+    cursor: pointer;
+    border: 1px solid orange;
+    padding: 10px 50px;
+    border-radius: 200px;
+    color: #fff;
+    background: orange;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    transition: 200ms;
+  }
+  .card .card__footer .action button:hover {
+    background: rgb(0, 0, 0);
+    color: #ffffff;
+  }
+  .pay button{
+    background-color: black;
+    height: 40px;
+    border-style: none;
+    color: white;
+    border-radius: 3px;
+    font-size: 16px;
+    width: 160px;
+  }
+  .pay{
+    margin: 12px 0;
+  }
+  .Policy{
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .Policy i{
+      font-size: x-large;
+      margin:0 10px;
+      color: rgb(39, 38, 38);
+  }
+  .Policy h5{
+      font-weight: bold;
+      margin-bottom: 10px;
+      margin-top: 20px;
+  }
+  .Policy ul {
+      list-style: none;
+  }
+
+  .Policy ul li:before {
+      content: '✓';
+  }

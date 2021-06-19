@@ -1,0 +1,62 @@
+
+h3{
+    font-weight: bold;
+}
+.agreeForm{
+    margin:  0 auto;
+    padding-top: 30px;
+    width: 50%;
+    border: 1px solid black;
+    text-align: center;
+}
+.header1{
+    margin-top: 40px;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-evenly;
+    box-shadow: 0  1px black;
+}
+.content{
+    margin-top: 40px;
+    font-weight: 1000;
+}
+.content ol li{
+    text-align:left;
+    margin-left: 80px;
+    list-style-type: none;
+}
+.Agreement ol li{
+    display: flex;
+    align-content: space-between;
+}
+.CarDetail{
+    display: flex;
+    font-weight: bold;
+    font-size:large;
+    align-content: space-between;
+}
+.CarDetail p{
+    color: rgb(187, 105, 5);
+    font-weight: bold;
+    font-size:large;
+    margin-left: 10px;
+}
+.CarDetail ol li{
+    display: flex;
+    align-content: space-between;
+}
+.UserInfo{
+    display: flex;
+    font-weight: bold;
+    font-size:large;
+}
+.UserInfo p {
+    color: rgb(187, 105, 5);
+    font-weight: bold;
+    font-size:large;
+    margin-left: 10px;
+}
+.UserInfo ol li{
+    display: flex;
+    align-content: space-between;
+}
